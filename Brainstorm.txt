@@ -1,0 +1,10 @@
+(a) generate a zip file on the go and serving it to user,
+        Ruled out because of high computational load, it's GBs of zipping everytime I click a button, not fair
+(b) keep generated zips on the server ready to be served to the user,
+        Better, but has still got limitations like, updating the zip files everytime a new file is added,
+        Dangerously high disk space requirement (every possible combination of courses to have a zip file)
+
+
+Keeping the above in mind, imho,
+    deferment of archiving to the client by serving an auxiliary web app to compress the folder and serve it as per the client's demands and capacity would be a better option
+    
